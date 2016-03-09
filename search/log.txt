@@ -1,0 +1,1479 @@
+[SearchAgent] using function bfs
+[SearchAgent] using problem type PositionSearchProblem
+Cur: (5, 5)
+List: []
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 4)
+List: [[], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'South'], 'North'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'North'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[], 'South'], 'North'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'North'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'South'], 'North'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[], 'South'], 'North'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[], 'South'], 'North'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'South'], 'North'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'South'], 'South'], 'North'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'South'], 'North'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[], 'South'], 'South'], 'North'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[], 'South'], 'South'], 'West'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[], 'South'], 'South'], 'West'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'South'], 'South'], 'West'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[], 'South'], 'South'], 'West'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[], 'West'], 'East'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'East'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'West'], 'East'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[], 'West'], 'East'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[], 'West'], 'East'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'East'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'East'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[], 'West'], 'East'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[], 'West'], 'West'], 'East'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'West'], 'East'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'West'], 'East'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[], 'West'], 'West'], 'East'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[], 'West'], 'West'], 'West'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[], 'West'], 'West'], 'West'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[], 'West'], 'West'], 'West'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[], 'West'], 'West'], 'West'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (2, 2)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'North']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (1, 3)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'South']
+((1, 4), 'North', 1)
+((2, 3), 'East', 1)
+Cur: (3, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (2, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'North']
+((2, 2), 'South', 1)
+((1, 3), 'West', 1)
+Cur: (2, 1)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'South']
+((2, 2), 'North', 1)
+((1, 1), 'West', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'East']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'North'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'South'], 'South'], 'West'], 'East'], 'West'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'North'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'North'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'South'], 'North']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (3, 2)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'South'], 'West']
+((4, 2), 'East', 1)
+((2, 2), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'East'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'East'], 'South'], 'South'], 'West'], 'East'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'East'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'East'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'East'], 'West'], 'West'], 'West'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'North'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'North'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'South'], 'North']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 3)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'South'], 'South'], 'West']
+((4, 2), 'South', 1)
+((5, 3), 'East', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'East'], 'West'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'East'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'East'], 'West'], 'West'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 4)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'East'], 'South']
+((5, 5), 'North', 1)
+((5, 3), 'South', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'East'], 'West']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'West'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'East'], 'West'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'East'], 'West'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'North'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'North'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'South'], 'North']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 3)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'South'], 'South'], 'East']
+((2, 2), 'South', 1)
+((1, 3), 'West', 1)
+Cur: (4, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'East'], 'East']
+((5, 5), 'East', 1)
+((3, 5), 'West', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'East'], 'West']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (1, 4)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'West'], 'South']
+((1, 5), 'North', 1)
+((1, 3), 'South', 1)
+Cur: (2, 5)
+List: [[[[[[[[], 'West'], 'West'], 'West'], 'West'], 'East'], 'West'], 'East']
+((3, 5), 'East', 1)
+((1, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'North'], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'North'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'North'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'North'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'West'], 'East']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'South'], 'West'], 'West']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'South'], 'South'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'East'], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'East'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'East'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'South'], 'North']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (1, 3)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'South'], 'South']
+((1, 4), 'North', 1)
+((2, 3), 'East', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'East'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'North'], 'West'], 'West'], 'West'], 'West'], 'East'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'South'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'East'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'East'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'East'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'West'], 'East']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (1, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'North'], 'West'], 'West'], 'West'], 'West']
+((1, 4), 'South', 1)
+((2, 5), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'South'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'South'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'West'], 'East']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (3, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'North'], 'West'], 'West']
+((4, 5), 'East', 1)
+((2, 5), 'West', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'North'], 'South'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'North'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'North'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'West'], 'East']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'South'], 'West'], 'West']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'North'], 'South'], 'West'], 'East'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'North'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'North'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'West'], 'East']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'South'], 'West'], 'West']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (5, 5)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'North'], 'North']
+((5, 4), 'South', 1)
+((4, 5), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'North'], 'South']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'West'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'North'], 'East'], 'West'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'North'], 'South']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (5, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'North'], 'East']
+((5, 4), 'North', 1)
+((4, 3), 'West', 1)
+Cur: (4, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'West'], 'East']
+((4, 3), 'North', 1)
+((3, 2), 'West', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'East'], 'West'], 'West']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'North'], 'South']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (1, 3)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'North'], 'West']
+((1, 4), 'North', 1)
+((2, 3), 'East', 1)
+Cur: (2, 2)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'South'], 'North']
+((2, 3), 'North', 1)
+((2, 1), 'South', 1)
+((3, 2), 'East', 1)
+Cur: (1, 1)
+List: [[[[[[[[[], 'South'], 'South'], 'West'], 'South'], 'West'], 'West'], 'South'], 'West']
