@@ -82,10 +82,10 @@ def depthFirstSearch(problem):
     st.push([])
     route = list()
     visited = dict()
-    visited[problem.getStartState()] = True;
     while st.isEmpty() == False:
         route = st.pop()
         cur = st.pop()
+        visited[cur] = True
         if problem.isGoalState(cur) == True:
             print "Route Length:", len(route)
             return route
@@ -97,7 +97,6 @@ def depthFirstSearch(problem):
                 x = copy.deepcopy(route)
                 st.push(x)
                 route.pop()
-                visited[state[0]] = True
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
