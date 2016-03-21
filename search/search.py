@@ -128,7 +128,32 @@ def breadthFirstSearch(problem):
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from game import PriorityQueue
+    import copy
+    visited = dict()
+    st = PriorityQueue()
+    st.push([problem.getStartState(), [], 0], 0)
+    visited[problem.getStartState()] = 0;
+    while st.isEmpty() == False:
+        cst = st.pop()
+        cur = cst[0]
+        route = cst[1]
+        ccst = cst[2]
+
+        if cur in visited and visited[cur] != ccst:
+            continue
+
+        if problem.isGoalState(cur) == True:
+            return route
+
+        suc = problem.getSuccessors(cur)
+        for state in suc:
+            if state[0] not in visited or visited[state[0]] > state[2] + ccst:
+                route.append(state[1])
+                x = copy.deepcopy(route)
+                st.push([state[0], x, state[2] + ccst], state[2] + ccst)
+                route.pop()
+                visited[state[0]] = state[2] + ccst
 
 def nullHeuristic(state, problem=None):
     """
@@ -140,7 +165,33 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    from game import PriorityQueue
+    import copy
+    visited = dict()
+    st = PriorityQueue()
+    st.push([problem.getStartState(), [], 0], 0)
+    visited[problem.getStartState()] = 0;
+    while st.isEmpty() == False:
+        cst = st.pop()
+        cur = cst[0]
+        route = cst[1]
+        ccst = cst[2]
+
+        if cur in visited and visited[cur] != ccst:
+            continue
+
+        if problem.isGoalState(cur) == True:
+            return route
+
+        suc = problem.getSuccessors(cur)
+        for state in suc:
+            if state[0] not in visited or visited[state[0]] > state[2] + ccst:
+                route.append(state[1])
+                x = copy.deepcopy(route)
+                st.push([state[0], x, state[2] + ccst], state[2] + ccst + heuristic(state[0], problem))
+                route.pop()
+                visited[state[0]] = state[2] + ccst
+    # util.raiseNotDefined()
 
 
 # Abbreviations
