@@ -1,0 +1,41 @@
+Starting on 3-9 at 15:56:58
+
+Question Q2
+===========
+
+Route Length: 2
+*** PASS: test_cases/Q2/graph_backtrack.test
+*** 	solution:		['1:A->C', '0:C->G']
+*** 	expanded_states:	['A', 'B', 'C', 'D']
+Route Length: 1
+*** PASS: test_cases/Q2/graph_bfs_vs_dfs.test
+*** 	solution:		['1:A->G']
+*** 	expanded_states:	['A', 'B']
+Route Length: 3
+*** PASS: test_cases/Q2/graph_infinite.test
+*** 	solution:		['0:A->B', '1:B->C', '1:C->G']
+*** 	expanded_states:	['A', 'B', 'C']
+Route Length: 4
+*** PASS: test_cases/Q2/graph_manypaths.test
+*** 	solution:		['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+*** 	expanded_states:	['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+Route Length: 68
+*** PASS: test_cases/Q2/pacman_1.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 68
+*** 	nodes expanded:		269
+
+### Question Q2: 3/3 ###
+
+
+Finished at 15:56:58
+
+Provisional grades
+==================
+Question Q2: 3/3
+------------------
+Total: 3/3
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
